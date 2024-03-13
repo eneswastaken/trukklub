@@ -5,6 +5,19 @@ import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
+const TAGS = {
+  NEXT: {
+    name: "Next.js",
+    class: "bg-black text-white",
+    icon: NextJS,
+  },
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-[#003159] text-white",
+    icon: Tailwind,
+  },
+}
+
 const PROJECTS = [
   {
     title: "Truck Club Transport | 1st Anniversary ",
@@ -12,6 +25,7 @@ const PROJECTS = [
       "🎥 @p.v.e5408",
     link: "https://www.youtube.com/watch?v=pbnshrfiQHk",
     image: "/projects/svgl.webp",
+    tags: [],
   },
   {
     title: "Koleka Convoy #2 ",
@@ -19,6 +33,7 @@ const PROJECTS = [
       "📹 Video Credits・@sukruyz 📸 Thumbnail Credits・Dino.",
     link: "https://www.youtube.com/watch?v=UbSmZegoWy4",
     image: "/projects/adventjs.webp",
+    tags: [],
   },
 ]
 ---
